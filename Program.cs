@@ -81,5 +81,22 @@
         Console.WriteLine(name[0]+"."+surname+" "+fathersName);
     }
     
+    static float Sum(float a, float b) 
+    {
+        return a + b;
+    }
+    static float Difference(float a, float b) 
+    {
+        return a - b;
+    }
+    static float Multiplication (float a, float b) 
+    {
+        return a * b;
+    }
+    static float Division(float a, float b) 
+    {
+        return a / b;
+    }
+    
     #endregion
 }
